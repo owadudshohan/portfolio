@@ -1,0 +1,58 @@
+body{
+    
+      font-family: "Open Sans", sans-serif;
+      font-family: 'Lato', sans-serif;
+    }
+
+.mary{
+color: #181818;
+font-size: 45px;
+font-weight: 800;
+}
+.r{
+    color: orangered;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px;
+}
+
+nav > ul{
+    display: flex;
+    
+    align-items: center;
+
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.btn{
+    border-radius: 5px;
+    background: orangered;
+    color: aliceblue;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
+}
+header{
+    background-color: bisque;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.pp{
+    width: 500px;
+}
