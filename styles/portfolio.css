@@ -48,10 +48,10 @@ nav a {
 
 header {
     background-color: bisque;
-    background-image: url(../images/header_bg.png);
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: right bottom;
-    /* background: url(../images/developer.png); */
+    background-position: right bottom, top left;
+    
 }
 
 
