@@ -46,13 +46,71 @@ nav a{
 }
 header{
     background-color: bisque;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    /* background: url(../images/developer.png); */
 }
-
+.dev{
+    
+}
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
 }
 .pp{
     width: 500px;
+}
+
+.in{
+font-size: 45px;
+color: #474747;
+margin-bottom: 0;
+}
+.name{
+font-size: 85px;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.pra{
+color: #474747;
+margin-top: 0;
+width: 500px;
+margin-bottom: 25px;
+
+}
+
+
+.banner-contant{
+
+
+}
+
+.about{
+padding: 120px;
+border-radius: 10px;
+background-color: bisque;
+margin-top: 130px;
+}
+
+.aboutd{
+color: #757575;
+text-align: center;
+font-size:18px;
+}
+.aboutt{
+color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+
+
+}
+main{
+
 }
