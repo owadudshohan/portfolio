@@ -112,5 +112,20 @@ font-weight: 700;
 
 }
 main{
+max-width: 1140px;
+margin: 0 auto;
+}
+.about-info{
+display: flex;
+justify-content: space-around;
+}
+.about-infoc{
+    text-align: center;
 
+}
+.info-title{
+ font-weight: normal;
+}
+.info-description{
+    font-weight: bolder;
 }
