@@ -1,41 +1,42 @@
-body{
-    
-      font-family: "Open Sans", sans-serif;
-      font-family: 'Lato', sans-serif;
-    }
+body {
 
-.mary{
-color: #181818;
-font-size: 45px;
-font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    font-family: 'Lato', sans-serif;
 }
-.r{
+
+.mary {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.r {
     color: orangered;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     padding: 0px 200px;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
-    
+
     align-items: center;
 
 }
 
-nav li{
+nav li {
     list-style: none;
     margin-right: 50px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
 }
 
-.btn{
+.btn {
     border-radius: 5px;
     background: orangered;
     color: aliceblue;
@@ -44,99 +45,137 @@ nav a{
     font-weight: 700;
     padding: 15px 30px;
 }
-header{
+
+header {
     background-color: bisque;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     /* background: url(../images/developer.png); */
 }
-.dev{
-    
-}
-.banner{
+
+.dev {}
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
-.pp{
+
+.pp {
     width: 500px;
 }
 
-.in{
-font-size: 45px;
-color: #474747;
-margin-bottom: 0;
-}
-.name{
-font-size: 85px;
-font-weight: 700;
-margin-top: 5px;
-margin-bottom: 5px;
+.in {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
 }
 
-.pra{
-color: #474747;
-margin-top: 0;
-width: 500px;
-margin-bottom: 25px;
-
+.name {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-
-.banner-contant{
-
+.pra {
+    color: #474747;
+    margin-top: 0;
+    width: 500px;
+    margin-bottom: 25px;
 
 }
 
-.about{
-padding: 120px;
-border-radius: 10px;
-background-color: bisque;
-margin-top: 130px;
+
+.banner-contant {}
+
+.about {
+    padding: 120px;
+    border-radius: 10px;
+    background-color: bisque;
+    margin-top: 130px;
 }
 
-.aboutd{
-color: #757575;
-text-align: center;
-font-size:18px;
+.aboutd {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
-.aboutt{
-color: #181818;
-text-align: center;
-font-size: 35px;
-font-weight: 700;
 
+.aboutt {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+    /* main section styles  */
 
 }
-main{
-max-width: 1140px;
-margin: 0 auto;
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
 }
-.about-info{
-display: flex;
-justify-content: space-around;
+
+main section {
+    margin-top: 130px;
 }
-.about-infoc{
+
+.about-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-infoc {
     text-align: center;
 
 }
-.info-title{
- font-weight: normal;
+
+.info-title {
+    font-weight: normal;
 }
-.info-description{
+
+.info-description {
     font-weight: bolder;
 }
-.what-title{
+
+/* skill related styles */
+.what-title {
     color: #181818;
-text-align: center;
-font-size: 35px;
-font-weight: 700;
-margin-top: 130px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 130px;
 }
-.what-description{
+
+.what-description {
     text-align: center;
     padding: 30px 150px;
+
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #757575;
+}
+
+/* resume section styles */
+.resume-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
