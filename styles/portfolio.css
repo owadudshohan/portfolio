@@ -54,7 +54,7 @@ header {
     /* background: url(../images/developer.png); */
 }
 
-.dev {}
+
 
 .banner {
     padding: 30px 30px 0px 150px;
@@ -90,7 +90,7 @@ header {
 }
 
 
-.banner-contant {}
+
 
 .about {
     padding: 120px;
@@ -205,4 +205,40 @@ main section {
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+
+/* footer styles */
+footer{
+    display: flex;
+    padding: 135px 200px;
+    margin-top: 100px;
+    background: #FFF8F3;
+    gap: 100px;
+    
+}
+.footer-column{
+    width: 50%;
+}
+.contract input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    border: 0;
+    background: #FFF;
+
+}
+
+.social-links a{
+    margin-right: 25px;
+}
+.all{
+    text-align: center;
+    color: #757575;
+    background: white;
+    
+}
+.sectiontitle{
+text-align: center;
 }
